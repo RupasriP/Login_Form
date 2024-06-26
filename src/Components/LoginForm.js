@@ -50,6 +50,7 @@ const LoginForm = () => {
       }
     return(
         <form onSubmit={handleSubmit}>
+        <h1>Login Form</h1>
             <div>
                 <label>Username:</label>
                 <input type='text' name='username' placeholder='Username' autoComplete='off' onChange={handleChange}/>
